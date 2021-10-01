@@ -21,14 +21,14 @@
 | Lab 02                                                       | (240 Min)                                                    |       |            |
 |                                                              | 01-Student-lab-manual.md                                     |       |            |
 |                                                              | 02-Exercise-1-Using-query-parameters-when-querying-Microsoft-Graph-via-HTTP.md |       |            |
-|                                                              | [03-Exercise-2-Retrieve-and-control-information-returned-from-Microsoft-Graph.md](https://github.com/fernanipmo/CFTIC-MS600/tree/main/Lab02/03-Exercise-2-Retrieve-and-control-information-returned-from-Microsoft-Graph) | Done  | Sept/10    |
+|                                                              | [03-Exercise-2-Retrieve-and-control-information-returned-from-Microsoft-Graph.md](https://github.com/fernanipmo/CFTIC-MS600/blob/main/Lab02/03-Exercise-2-Retrieve-and-control-information-returned-from-Microsoft-Graph/03-Exercise-2-Retrieve-and-control-information-returned-from-Microsoft-Graph_FPM.md) | Done  | Sept/10    |
 |                                                              | 04-Exercise-3-Using-change-notifications-and-track-changes-with-Microsoft-Graph.md |       | Sep/13     |
 |                                                              | 05-Exercise-4-Reduce-traffic-with-batched-requests.md        |       | Sep/13     |
 |                                                              | 06-Exercise-5-Understand-throttling-in-Microsoft-Graph.md    |       | Sep/13-14  |
 |                                                              | [07-Exercise-6-Querying-user-data-from-Microsoft-Graph.md](https://github.com/fernanipmo/CFTIC-MS600/blob/main/Lab02/07-Exercise-6-Querying-user-data-from-Microsoft-Graph/07-Exercise-6-Querying-user-data-from-Microsoft-Graph_FPM.md) | Done  | Sep/14     |
 | Lab 03                                                       | (240 Min)                                                    |       |            |
 |                                                              | 01-Student-lab-manual.md                                     |       |            |
-|                                                              | 02-Exercise-1-Introduction-to-SharePoint-Framework-(SPFx).md |       |            |
+|                                                              | [02-Exercise-1-Introduction-to-SharePoint-Framework-(SPFx).md](https://github.com/fernanipmo/CFTIC-MS600/blob/main/Lab03/02-Exercise-1-Introduction-to-SharePoint-Framework-(SPFx)/02-Exercise-1-Introduction-to-SharePoint-Framework-(SPFx)_FPM.md) | Done  | Sept/15    |
 |                                                              | 03-Exercise-2-Working-with-the-web-part-property-pane.md     |       |            |
 |                                                              | 04-Exercise-3-Creating-SharePoint-Framework-Extensions.md    |       |            |
 |                                                              | 05-Exercise-4-Creating-a-command-set-extension.md            |       | Sep/16     |
