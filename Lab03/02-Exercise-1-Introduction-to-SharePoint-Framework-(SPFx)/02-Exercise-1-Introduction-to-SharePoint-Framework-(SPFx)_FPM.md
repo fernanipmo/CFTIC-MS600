@@ -1,4 +1,4 @@
-﻿﻿﻿# Exercise 1: Introduction to SharePoint Framework (SPFx)
+﻿﻿# Exercise 1: Introduction to SharePoint Framework (SPFx)
 
 ## Task 1: Set up your SharePoint Framework development environment
 
