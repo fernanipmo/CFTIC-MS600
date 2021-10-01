@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿# Exercise 2: Retrieve and control information returned from Microsoft Graph
+﻿﻿# Exercise 2: Retrieve and control information returned from Microsoft Graph
 
 In this exercise, you will create a new Azure AD web application registration using the Azure Active Directory (Azure AD) admin center, a .NET Core console application, and query Microsoft Graph.
 
