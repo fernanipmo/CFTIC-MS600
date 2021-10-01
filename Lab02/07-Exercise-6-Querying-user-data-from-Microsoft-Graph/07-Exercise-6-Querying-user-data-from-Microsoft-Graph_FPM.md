@@ -1,4 +1,4 @@
-﻿# Exercise 6: Querying user data from Microsoft Graph
+﻿﻿# Exercise 6: Querying user data from Microsoft Graph
 
 This exercise leads the user through a series of tasks utilizing Microsoft Graph Explorer. For this exercise you will use the default sample account and will not sign in.
 
@@ -178,3 +178,8 @@ In this exercise, you learned how to:
 
 - Get the user’s manager profile.
 
+
+
+
+
+[Readme](https://github.com/fernanipmo/CFTIC-MS600/blob/main/Readme.md)
