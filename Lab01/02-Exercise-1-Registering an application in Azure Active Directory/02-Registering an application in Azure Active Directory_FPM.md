@@ -64,6 +64,8 @@ In this task, you will create a new Active Directory organization so you will un
 
    ![01_Registering an application in Azure Active Directory_09](Evidencia/01_Registering an application in Azure Active Directory_09.png)
 
+   
+
 7. A **Directory creation in progress, this will take a few minutes** message is displayed.
 
    ![01_Registering an application in Azure Active Directory_10](Evidencia/01_Registering an application in Azure Active Directory_10.png)
@@ -73,6 +75,8 @@ In this task, you will create a new Active Directory organization so you will un
 ![01_Registering an application in Azure Active Directory_11](Evidencia/01_Registering an application in Azure Active Directory_11.png)
 
 ![01_Registering an application in Azure Active Directory_12](Evidencia/01_Registering an application in Azure Active Directory_12.png)
+
+
 
 ## Task 3: Create a user in new Active Directory tenant
 
@@ -138,6 +142,8 @@ In this task, you will switch Active Directory tenants and then continue with re
 
    ![01_Registering an application in Azure Active Directory_25](Evidencia/01_Registering an application in Azure Active Directory_25.png)
 
+   
+
 3. You should be redirected to the Active Directory page for Contoso. If it redirected you to the default Azure portal landing page, then follow the steps below to navigate back to Azure Active Directory:
 
    1. You will be redirected to the Azure portal landing page where you should now see an Azure Active Directory button available.
@@ -181,8 +187,6 @@ In this task, you will switch Active Directory tenants and then continue with re
 
    **Registering and Branding of the application in fernanipmotech**
 
-   
-
    ![01_Registering an application in Azure Active Directory_33](Evidencia/01_Registering an application in Azure Active Directory_33.png)
 
    ![01_Registering an application in Azure Active Directory_34](Evidencia/01_Registering an application in Azure Active Directory_34.png)
@@ -198,8 +202,6 @@ In this task, you will switch Active Directory tenants and then continue with re
    ![01_Registering an application in Azure Active Directory_39](Evidencia/01_Registering an application in Azure Active Directory_39.png)
 
    ![01_Registering an application in Azure Active Directory_40](Evidencia/01_Registering an application in Azure Active Directory_40.png)
-
-   
 
    ![01_Registering an application in Azure Active Directory_44](Evidencia/01_Registering an application in Azure Active Directory_44.png)
 
