@@ -12,7 +12,7 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ----- | ---------- |
 | Lab 01                                                       | (180 Min)                                                    |       |            |
 |                                                              | 01-Student-lab-manual.md                                     |       | Sep/06     |
-|                                                              | 02-Exercise-1-Registering-an-application-in-Azure-Active-Directory.md |       | Sep/06     |
+|                                                              | [02-Exercise-1-Registering-an-application-in-Azure-Active-Directory.md](https://github.com/fernanipmo/CFTIC-MS600/blob/main/Lab01/02-Exercise-1-Registering%20an%20application%20in%20Azure%20Active%20Directory/02-Registering%20an%20application%20in%20Azure%20Active%20Directory_FPM.md) | Done  | Sep/07     |
 |                                                              | 03-Exercise-2-Implementing-authentication.md                 |       | Sep/06     |
 |                                                              | 04-Exercise-3-Implementing-application-that-supports-B2B.md  |       | Sep/06     |
 |                                                              | 05-Exercise-4-Configuring-permissions-to-consume-an-API.md   |       | Sep/06     |
