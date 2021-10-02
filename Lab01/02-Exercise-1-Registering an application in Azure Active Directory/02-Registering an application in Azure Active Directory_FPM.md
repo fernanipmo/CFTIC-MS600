@@ -1,4 +1,4 @@
-# Exercise 1: Registering an application in Azure Active Directory
+# Exercise 1: Registering-an-application-in-Azure-Active-Directory
 
 ## Task 1: Open the Azure portal
 
@@ -24,15 +24,15 @@ In this task, you will create a new Active Directory organization so you will un
 
 1. Expand the left navigation pane, select **Azure Active Directory**.
 
-   ![01_Registering an application in Azure Active Directory_01](Evidencia/01_Registering an application in Azure Active Directory_01.png)
+   ![01_Registering-an-application-in-Azure-Active-Directory_01](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_01.png)
 
-   ![01_Registering an application in Azure Active Directory_03](Evidencia/01_Registering an application in Azure Active Directory_03.png)
+   ![01_Registering-an-application-in-Azure-Active-Directory_03](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_03.png)
 
 2. Select **Create a tenant** located in the right side of the portal.
 
-   ![01_Registering an application in Azure Active Directory_04](Evidencia/01_Registering an application in Azure Active Directory_04.png)
+   ![01_Registering-an-application-in-Azure-Active-Directory_04](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_04.png)
 
-   ![01_Registering an application in Azure Active Directory_05](Evidencia/01_Registering an application in Azure Active Directory_05.png)
+   ![01_Registering-an-application-in-Azure-Active-Directory_05](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_05.png)
 
 3. From the **Basics** tab, perform the following actions:
 
@@ -40,7 +40,7 @@ In this task, you will create a new Active Directory organization so you will un
 
    2. Select **Next: Configuration**.
 
-      ![01_Registering an application in Azure Active Directory_06](Evidencia/01_Registering an application in Azure Active Directory_06.png)
+      ![01_Registering-an-application-in-Azure-Active-Directory_06](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_06.png)
 
    
 
@@ -52,7 +52,7 @@ In this task, you will create a new Active Directory organization so you will un
 
    3. Select the **Country or region**.
 
-      ![01_Registering an application in Azure Active Directory_07](Evidencia/01_Registering an application in Azure Active Directory_07.png)
+      ![01_Registering-an-application-in-Azure-Active-Directory_07](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_07.png)
 
    4. Select **Review + create**.
 
@@ -60,21 +60,21 @@ In this task, you will create a new Active Directory organization so you will un
 
 6. Select **Create**.
 
-   ![01_Registering an application in Azure Active Directory_08](Evidencia/01_Registering an application in Azure Active Directory_08.png)
+   ![01_Registering-an-application-in-Azure-Active-Directory_08](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_08.png)
 
-   ![01_Registering an application in Azure Active Directory_09](Evidencia/01_Registering an application in Azure Active Directory_09.png)
+   ![01_Registering-an-application-in-Azure-Active-Directory_09](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_09.png)
 
    
 
 7. A **Directory creation in progress, this will take a few minutes** message is displayed.
 
-   ![01_Registering an application in Azure Active Directory_10](Evidencia/01_Registering an application in Azure Active Directory_10.png)
+   ![01_Registering-an-application-in-Azure-Active-Directory_10](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_10.png)
 
    1. When directory creation is complete, select **Click here to navigate to your new directory**.
 
-![01_Registering an application in Azure Active Directory_11](Evidencia/01_Registering an application in Azure Active Directory_11.png)
+![01_Registering-an-application-in-Azure-Active-Directory_11](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_11.png)
 
-![01_Registering an application in Azure Active Directory_12](Evidencia/01_Registering an application in Azure Active Directory_12.png)
+![01_Registering-an-application-in-Azure-Active-Directory_12](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_12.png)
 
 
 
@@ -84,7 +84,7 @@ In this task, you will create a user in the new Active Directory tenant you just
 
 1. From the Active Directory page (Contoso Marketing Company), select **Users**.
 
-   ![01_Registering an application in Azure Active Directory_13](Evidencia/01_Registering an application in Azure Active Directory_13.png)
+   ![01_Registering-an-application-in-Azure-Active-Directory_13](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_13.png)
 
    
 
@@ -92,7 +92,7 @@ In this task, you will create a user in the new Active Directory tenant you just
 
 3. Ensure **Create user** is selected.
 
-   ![01_Registering an application in Azure Active Directory_14](Evidencia/01_Registering an application in Azure Active Directory_14.png)
+   ![01_Registering-an-application-in-Azure-Active-Directory_14](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_14.png)
 
 4. On the **New user** page, enter information for this user:
    - **User name:** testuser
@@ -103,28 +103,28 @@ In this task, you will create a user in the new Active Directory tenant you just
 
 5. Select **Create**.
 
-   ![01_Registering an application in Azure Active Directory_15](Evidencia/01_Registering an application in Azure Active Directory_15.png)
+   ![01_Registering-an-application-in-Azure-Active-Directory_15](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_15.png)
 
-   ![01_Registering an application in Azure Active Directory_16](Evidencia/01_Registering an application in Azure Active Directory_16.png)
+   ![01_Registering-an-application-in-Azure-Active-Directory_16](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_16.png)
 
 6. Launch a **New InPrivate Window** browser session.
 
 7. Test new user in Azure portal and change password:
    1. Navigate to the Azure portal, [https://portal.azure.com](https://portal.azure.com/) in the InPrivate browser session.
 
-      ![01_Registering an application in Azure Active Directory_18](Evidencia/01_Registering an application in Azure Active Directory_18.png)
+      ![01_Registering-an-application-in-Azure-Active-Directory_18](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_18.png)
 
    2. Sign in with your new *testuser@[contosomarketingxx@onmicrosoft.com](mailto:contosomarketingxx@onmicrosoft.com)* account.
 
-      ![01_Registering an application in Azure Active Directory_19](Evidencia/01_Registering an application in Azure Active Directory_19.png)
+      ![01_Registering-an-application-in-Azure-Active-Directory_19](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_19.png)
 
    3. You will be prompted to change the password. Paste the auto-generated password you copied and paste into the **Current password** field.
 
-      ![01_Registering an application in Azure Active Directory_20](Evidencia/01_Registering an application in Azure Active Directory_20.png)
+      ![01_Registering-an-application-in-Azure-Active-Directory_20](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_20.png)
 
    4. Set the password as desired.
 
-      ![01_Registering an application in Azure Active Directory_23](Evidencia/01_Registering an application in Azure Active Directory_23.png)
+      ![01_Registering-an-application-in-Azure-Active-Directory_23](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_23.png)
 
    5. Save the username and password so you will remember the credentials for using it later in this lab.
 
@@ -138,9 +138,9 @@ In this task, you will switch Active Directory tenants and then continue with re
 
 2. Select **Contoso**.
 
-   ![01_Registering an application in Azure Active Directory_24](Evidencia/01_Registering an application in Azure Active Directory_24.png)
+   ![01_Registering-an-application-in-Azure-Active-Directory_24](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_24.png)
 
-   ![01_Registering an application in Azure Active Directory_25](Evidencia/01_Registering an application in Azure Active Directory_25.png)
+   ![01_Registering-an-application-in-Azure-Active-Directory_25](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_25.png)
 
    
 
@@ -149,17 +149,17 @@ In this task, you will switch Active Directory tenants and then continue with re
    1. You will be redirected to the Azure portal landing page where you should now see an Azure Active Directory button available.
    2. Select the **Azure Active Directory** icon. If you do not have the icon: expand the left navigation pane, select **Azure Active Directory**.
 
-![01_Registering an application in Azure Active Directory_26](Evidencia/01_Registering an application in Azure Active Directory_26.png)
+![01_Registering-an-application-in-Azure-Active-Directory_26](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_26.png)
 
 ### Register a new application
 
 1. On the left menu, navigate to **App registrations**.
 
-   ![01_Registering an application in Azure Active Directory_27](Evidencia/01_Registering an application in Azure Active Directory_27.png)
+   ![01_Registering-an-application-in-Azure-Active-Directory_27](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_27.png)
 
 2. Select **New Registration**.
 
-   ![01_Registering an application in Azure Active Directory_28](Evidencia/01_Registering an application in Azure Active Directory_28.png)
+   ![01_Registering-an-application-in-Azure-Active-Directory_28](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_28.png)
 
 3. From the **Register an application** pane, perform the following actions:
 
@@ -171,7 +171,7 @@ In this task, you will switch Active Directory tenants and then continue with re
 
    4. Select **Register**. The application overview page is displayed.
 
-      ![01_Registering an application in Azure Active Directory_29](Evidencia/01_Registering an application in Azure Active Directory_29.png)
+      ![01_Registering-an-application-in-Azure-Active-Directory_29](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_29.png)
 
 ## Task 5: Branding of the application
 
@@ -179,35 +179,35 @@ In this task, you will switch Active Directory tenants and then continue with re
 
 2. Verify that you can personalize branding by providing a logo, home page URL, terms of service URL, and a privacy statement URL.
 
-   ![01_Registering an application in Azure Active Directory_30](Evidencia/01_Registering an application in Azure Active Directory_30.png)
+   ![01_Registering-an-application-in-Azure-Active-Directory_30](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_30.png)
 
-   ![01_Registering an application in Azure Active Directory_31](Evidencia/01_Registering an application in Azure Active Directory_31.png)
+   ![01_Registering-an-application-in-Azure-Active-Directory_31](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_31.png)
 
    
 
    **Registering and Branding of the application in fernanipmotech**
 
-   ![01_Registering an application in Azure Active Directory_33](Evidencia/01_Registering an application in Azure Active Directory_33.png)
+   ![01_Registering-an-application-in-Azure-Active-Directory_33](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_33.png)
 
-   ![01_Registering an application in Azure Active Directory_34](Evidencia/01_Registering an application in Azure Active Directory_34.png)
+   ![01_Registering-an-application-in-Azure-Active-Directory_34](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_34.png)
 
-   ![01_Registering an application in Azure Active Directory_35](Evidencia/01_Registering an application in Azure Active Directory_35.png)
+   ![01_Registering-an-application-in-Azure-Active-Directory_35](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_35.png)
 
-   ![01_Registering an application in Azure Active Directory_36](Evidencia/01_Registering an application in Azure Active Directory_36.png)
+   ![01_Registering-an-application-in-Azure-Active-Directory_36](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_36.png)
 
-   ![01_Registering an application in Azure Active Directory_37](Evidencia/01_Registering an application in Azure Active Directory_37.png)
+   ![01_Registering-an-application-in-Azure-Active-Directory_37](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_37.png)
 
-   ![01_Registering an application in Azure Active Directory_38](Evidencia/01_Registering an application in Azure Active Directory_38.png)
+   ![01_Registering-an-application-in-Azure-Active-Directory_38](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_38.png)
 
-   ![01_Registering an application in Azure Active Directory_39](Evidencia/01_Registering an application in Azure Active Directory_39.png)
+   ![01_Registering-an-application-in-Azure-Active-Directory_39](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_39.png)
 
-   ![01_Registering an application in Azure Active Directory_40](Evidencia/01_Registering an application in Azure Active Directory_40.png)
+   ![01_Registering-an-application-in-Azure-Active-Directory_40](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_40.png)
 
-   ![01_Registering an application in Azure Active Directory_44](Evidencia/01_Registering an application in Azure Active Directory_44.png)
+   ![01_Registering-an-application-in-Azure-Active-Directory_44](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_44.png)
 
-   ![01_Registering an application in Azure Active Directory_45](Evidencia/01_Registering an application in Azure Active Directory_45.png)
+   ![01_Registering-an-application-in-Azure-Active-Directory_45](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_45.png)
 
-   ![01_Registering an application in Azure Active Directory_46](Evidencia/01_Registering an application in Azure Active Directory_46.png)
+   ![01_Registering-an-application-in-Azure-Active-Directory_46](Evidencia/01_Registering-an-application-in-Azure-Active-Directory_46.png)
 
 3. This exercise is now complete.
 
