@@ -6,7 +6,7 @@ In this exercise, you’ll learn how to create a web service and register it as 
 
 1. Open your command prompt, navigate to a directory where you want to save your work, create a new folder **learn-msteams**, and change directory into that folder.
 
-    ![05-Exercise-4-Creating-outgoing-webhooks_01](E:\CFTIC-MS-600_old\Lab04\05-Exercise-4-Creating-outgoing-webhooks\Evidencia\05-Exercise-4-Creating-outgoing-webhooks_01.png)
+    ![05-Exercise-4-Creating-outgoing-webhooks_01](Evidencia/05-Exercise-4-Creating-outgoing-webhooks_01.png)
 
 1. Run the Yeoman Generator for Microsoft Teams by running the following command:
 
@@ -32,19 +32,19 @@ In this exercise, you’ll learn how to create a web service and register it as 
     > **Note:**
     > Most of the answers to these questions can be changed after creating the project. For example, the URL where the project will be hosted isn't important at the time of creating or testing the project.
 
-    ![05-Exercise-4-Creating-outgoing-webhooks_02](E:\CFTIC-MS-600_old\Lab04\05-Exercise-4-Creating-outgoing-webhooks\Evidencia\05-Exercise-4-Creating-outgoing-webhooks_02.png)
+    ![05-Exercise-4-Creating-outgoing-webhooks_02](Evidencia/05-Exercise-4-Creating-outgoing-webhooks_02.png)
 
-    ![05-Exercise-4-Creating-outgoing-webhooks_03](E:\CFTIC-MS-600_old\Lab04\05-Exercise-4-Creating-outgoing-webhooks\Evidencia\05-Exercise-4-Creating-outgoing-webhooks_03.png)
+    ![05-Exercise-4-Creating-outgoing-webhooks_03](Evidencia/05-Exercise-4-Creating-outgoing-webhooks_03.png)
 
-    ![05-Exercise-4-Creating-outgoing-webhooks_04](E:\CFTIC-MS-600_old\Lab04\05-Exercise-4-Creating-outgoing-webhooks\Evidencia\05-Exercise-4-Creating-outgoing-webhooks_04.png)
+    ![05-Exercise-4-Creating-outgoing-webhooks_04](Evidencia/05-Exercise-4-Creating-outgoing-webhooks_04.png)
 
     
 
 1. After answering the generator's questions, the generator will create the scaffolding for the project and then execute `npm install` that downloads all the dependencies required by the project.
 
-    ![05-Exercise-4-Creating-outgoing-webhooks_05](E:\CFTIC-MS-600_old\Lab04\05-Exercise-4-Creating-outgoing-webhooks\Evidencia\05-Exercise-4-Creating-outgoing-webhooks_05.png)
+    ![05-Exercise-4-Creating-outgoing-webhooks_05](Evidencia/05-Exercise-4-Creating-outgoing-webhooks_05.png)
 
-    ![05-Exercise-4-Creating-outgoing-webhooks_06](E:\CFTIC-MS-600_old\Lab04\05-Exercise-4-Creating-outgoing-webhooks\Evidencia\05-Exercise-4-Creating-outgoing-webhooks_06.png)
+    ![05-Exercise-4-Creating-outgoing-webhooks_06](Evidencia/05-Exercise-4-Creating-outgoing-webhooks_06.png)
 
 1. Our web service will need one more NPM package to simplify finding data in an array. Execute the following command in the command prompt from the root folder of the project to install the library Lodash:
 
@@ -52,9 +52,9 @@ In this exercise, you’ll learn how to create a web service and register it as 
     npm install lodash -S
     ```
 
-![05-Exercise-4-Creating-outgoing-webhooks_07](E:\CFTIC-MS-600_old\Lab04\05-Exercise-4-Creating-outgoing-webhooks\Evidencia\05-Exercise-4-Creating-outgoing-webhooks_07.png)
+![05-Exercise-4-Creating-outgoing-webhooks_07](Evidencia/05-Exercise-4-Creating-outgoing-webhooks_07.png)
 
-![05-Exercise-4-Creating-outgoing-webhooks_08](E:\CFTIC-MS-600_old\Lab04\05-Exercise-4-Creating-outgoing-webhooks\Evidencia\05-Exercise-4-Creating-outgoing-webhooks_08.png)
+![05-Exercise-4-Creating-outgoing-webhooks_08](Evidencia/05-Exercise-4-Creating-outgoing-webhooks_08.png)
 
 ## Task 2: Code the outgoing webhook
 
