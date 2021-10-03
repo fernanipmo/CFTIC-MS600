@@ -41,8 +41,8 @@
 |                                                              | [03-Exercise-2-Using-adaptive-cards-and-deep-links-in-task-modules.md](https://github.com/fernanipmo/CFTIC-MS600/tree/main/Lab04/03-Exercise-2-Using-adaptive-cards-and-deep-links-in-task-modules) | Done  | Sep/21     |
 |                                                              | 04-Exercise-3-Using-task-modules-with-bots.md                |       |            |
 |                                                              | [05-Exercise-4-Creating-outgoing-webhooks.md](https://github.com/fernanipmo/CFTIC-MS600/blob/main/Lab04/05-Exercise-4-Creating-outgoing-webhooks/05-Exercise-4-Creating-outgoing-webhooks_FPM.md) | Done  | Sep/22     |
-|                                                              | [06-Exercise-5-Creating-incoming-webhooks.md](https://github.com/fernanipmo/CFTIC-MS600/blob/main/Lab04/06-Exercise-5-Creating-incoming-webhooks/06-Exercise-5-Creating-incoming-webhooks_FPM.md | Done  | Sep/22     |
-|                                                              | 07-Exercise-6-Create-a-custom-personal-tab.md                |       |            |
+|                                                              | [06-Exercise-5-Creating-incoming-webhooks.md](https://github.com/fernanipmo/CFTIC-MS600/blob/main/Lab04/06-Exercise-5-Creating-incoming-webhooks/06-Exercise-5-Creating-incoming-webhooks_FPM.md) | Done  | Sep/22     |
+|                                                              | [07-Exercise-6-Create-a-custom-personal-tab.md](https://github.com/fernanipmo/CFTIC-MS600/blob/main/Lab04/07-Exercise-6-Create-a-custom-personal-tab/07-Exercise-6-Create-a-custom-personal-tab_FPM.md) |       |            |
 |                                                              | 08-Exercise-7-Create-a-custom-channel-tab.md                 |       |            |
 |                                                              | 09-Exercise-8-Creating-action-command-messaging-extensions.md |       |            |
 |                                                              | 10-Exercise-9-Creating-search-command-messaging-extensions.md |       |            |
