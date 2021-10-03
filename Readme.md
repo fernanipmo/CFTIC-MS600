@@ -11,13 +11,13 @@
 | Lab                                                          | Time                                                         | State | Video Date |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ----- | ---------- |
 | Lab 01                                                       | (180 Min)                                                    |       |            |
-|                                                              | 01-Student-lab-manual.md                                     |       | Sep/06     |
+|                                                              | 01-Student-lab-manual.md                                     |       | Sep/07     |
 |                                                              | [02-Exercise-1-Registering-an-application-in-Azure-Active-Directory.md](https://github.com/fernanipmo/CFTIC-MS600/blob/main/Lab01/02-Exercise-1-Registering%20an%20application%20in%20Azure%20Active%20Directory/02-Registering%20an%20application%20in%20Azure%20Active%20Directory_FPM.md) | Done  | Sep/07     |
-|                                                              | 03-Exercise-2-Implementing-authentication.md                 |       | Sep/06     |
-|                                                              | 04-Exercise-3-Implementing-application-that-supports-B2B.md  |       | Sep/06     |
-|                                                              | 05-Exercise-4-Configuring-permissions-to-consume-an-API.md   |       | Sep/06     |
-|                                                              | 06-Exercise-5-Implementing-authorization-to-consume-an-API.md |       | Sep/       |
-|                                                              | 07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph.md |       |            |
+|                                                              | [03-Exercise-2-Implementing-authentication.md](https://github.com/fernanipmo/CFTIC-MS600/blob/main/Lab01/03-Exercise-2-Implementing-authentication/03-Exercise-2-Implementing-authentication_FPM.md) | Done  | Sep/07     |
+|                                                              | [04-Exercise-3-Implementing-application-that-supports-B2B.md](https://github.com/fernanipmo/CFTIC-MS600/tree/main/Lab01/04-Exercise-3-Implementing-application-that-supports-B2B) | Done  | Sep/07     |
+|                                                              | [05-Exercise-4-Configuring-permissions-to-consume-an-API.md](https://github.com/fernanipmo/CFTIC-MS600/tree/main/Lab01/05-Exercise-4-Configuring-permissions-to-consume-an-API) | Done  | Sep/07     |
+|                                                              | 06-Exercise-5-Implementing-authorization-to-consume-an-API.md |       | Sep/08     |
+|                                                              | 07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph.md |       | Sep/08     |
 | Lab 02                                                       | (240 Min)                                                    |       |            |
 |                                                              | 01-Student-lab-manual.md                                     |       |            |
 |                                                              | 02-Exercise-1-Using-query-parameters-when-querying-Microsoft-Graph-via-HTTP.md |       |            |
