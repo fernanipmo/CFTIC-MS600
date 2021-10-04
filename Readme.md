@@ -57,7 +57,7 @@
 |                                                              | 19-Exercise-18-Implement-single-sign-on-with-Microsoft-Teams-bots.md |       |            |
 | Lab 05                                                       | (180 Min)                                                    |       |            |
 |                                                              | 01-Student-lab-manual.md                                     |       |            |
-|                                                              | 02-Exercise-1-Understanding-fundamental-components-and-types-of-Office-Add-ins.md | Done  | Sep/30     |
+|                                                              | [02-Exercise-1-Understanding-fundamental-components-and-types-of-Office-Add-ins.md](https://github.com/fernanipmo/CFTIC-MS600/blob/main/Lab05/02-Exercise-1-Understanding-fundamental-components-and-types-of-Office-Add-ins/02-Exercise-1-Understanding-fundamental-components-and-types-of-Office-Add-ins_FPM.md) | Done  | Sep/30     |
 |                                                              | 03-Exercise-2-Understanding-Office-JavaScript-APIs.md        |       | Sep/30     |
 |                                                              | 04-Exercise-3-Understanding-customization-of-add-ins.md      |       | Sep/30     |
 |                                                              | 05-Exercise-4-Understanding-actionable-messages.md           |       | Sep/30     |
