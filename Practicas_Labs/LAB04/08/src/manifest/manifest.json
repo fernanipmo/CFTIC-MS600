@@ -1,0 +1,57 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.8/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.8",
+  "id": "f1eb6e56-97fd-42f0-b300-13a24447170c",
+  "version": "1.0.0",
+  "packageName": "{{PACKAGE_NAME}}",
+  "developer": {
+    "name": "fernanipmotech",
+    "websiteUrl": "https://{{PUBLIC_HOSTNAME}}",
+    "privacyUrl": "https://{{PUBLIC_HOSTNAME}}/privacy.html",
+    "termsOfUseUrl": "https://{{PUBLIC_HOSTNAME}}/tou.html"
+  },
+  "name": {
+    "short": "Planet Messaging",
+    "full": "Planet Messaging"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [],
+  "staticTabs": [],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [
+    {
+      "botId": "f1eb6e56-97fd-42f0-b300-13a24447170c",
+      "canUpdateConfiguration": false,
+      "commands": [
+        {
+          "id": "planetExpanderAction",
+          "type": "action",
+          "title": "Planet Expander",
+          "description": "Lookup the details of a planet.",
+          "context": [
+          "compose",
+          "message"
+        ],
+        "fetchTask": true
+        }
+      ]
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "{{PUBLIC_HOSTNAME}}"
+  ],
+  "showLoadingIndicator": false
+}
