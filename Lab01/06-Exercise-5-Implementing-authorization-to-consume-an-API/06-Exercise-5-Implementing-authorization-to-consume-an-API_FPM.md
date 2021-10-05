@@ -1,4 +1,4 @@
-﻿# Exercise 5: Implementing authorization to consume an API
+﻿﻿# Exercise 5: Implementing authorization to consume an API
 
 This exercise demonstrates how a JavaScript single-page application (SPA) can:
 
@@ -10,7 +10,7 @@ This exercise demonstrates how a JavaScript single-page application (SPA) can:
 
 The sample application used in this exercise enables a JavaScript SPA to query the Microsoft Graph API or a web API that accepts tokens from the Microsoft identity platform endpoint. In this scenario, after a user signs in, an access token is requested and added to HTTP requests through the authorization header. Token acquisition and renewal are handled by the Microsoft Authentication Library (MSAL).
 
-![06-Exercise-5-Implementing-authorization-to-consume-an-API_Arch_00](Evidencia/06-Exercise-5-Implementing-authorization-to-consume-an-API_Arch_00.png)
+![06-Exercise-5-Implementing-authorization-to-consume-an-API_00_Arch](C:\CFTIC-MS-600\Lab01\06-Exercise-5-Implementing-authorization-to-consume-an-API\Evidencia\06-Exercise-5-Implementing-authorization-to-consume-an-API_00_Arch.png)
 
 ## Task 1: Download sample project
 
