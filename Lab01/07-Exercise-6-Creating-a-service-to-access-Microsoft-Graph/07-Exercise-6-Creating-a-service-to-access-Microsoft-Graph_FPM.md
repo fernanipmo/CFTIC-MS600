@@ -16,11 +16,15 @@ In this application, you'll create an ASP.NET Core web application that allows u
     cd HelloWorldIdentity
     ```
 
+    ![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_01](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_01.png)
+
 1. Execute the following command to create a new Node.js application:
 
     ```powershell
     npm init -y
     ```
+
+    ![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_02](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_02.png)
 
 1. Install the Node.js webserver **express** and HTTP request middleware **morgan** into the application:
 
@@ -28,11 +32,15 @@ In this application, you'll create an ASP.NET Core web application that allows u
     npm install express morgan
     ```
 
+    ![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_03](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_03.png)
+
 1. Open the project in Visual Studio code by executing:
 
     ```powershell
     code .
     ```
+
+    ![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_04](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_04.png)
 
 1. Create a new file **server.js** in the root of the folder and add the following JavaScript to it. This code will start the web server:
 
@@ -55,9 +63,19 @@ In this application, you'll create an ASP.NET Core web application that allows u
     console.log('Press CTRL+C to stop the web server...');
     ```
 
+![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_05](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_05.png)
+
+![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_06](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_06.png)
+
+
+
 ### Create a web page for the user to sign in and display details
 
 Create a new folder **web** in the current folder and add a new file **index.html** in the folder. Add the following code to the **index.html** file:
+
+![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_07](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_07.png)
+
+![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_08](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_08.png)
 
 ```html
 <!DOCTYPE html>
@@ -141,6 +159,10 @@ Create a new folder **web** in the current folder and add a new file **index.htm
 </html>
 ```
 
+![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_09](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_09.png)
+
+![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_10](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_10.png)
+
 **Note**:
 The remainder of this exercise instructs you to add code to this **index.html** file. Pay close attention where you add the code using the using the two **TODO:** comments for placement.
 
@@ -155,6 +177,8 @@ The remainder of this exercise instructs you to add code to this **index.html** 
         loginbutton.setAttribute('onclick', 'signOut();');
     }
     ```
+
+    ![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_11](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_11.png)
 
 1. Next, add the following functions to **index.html** immediately before the **// TODO: add FUNCTIONS before this line** comment.
 
@@ -196,8 +220,10 @@ The remainder of this exercise instructs you to add code to this **index.html** 
         }
         ```
 
+    ![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_12](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_12.png)
     
     **Note:** These functions first attempt to retrieve the access token silently from the currently signed in user. If the user needs to sign in, the functions will trigger either the popup or redirect authentication process. The redirect approach to authenticating requires an extra step. The MSAL application on the page needs to see if the current page was requested based on a redirect from Azure AD. If so, it needs to process information in the URL request provided by Azure AD.
+    
 1. Add the following function immediately before the **// TODO: add FUNCTIONS before this line** comment:
 
     ```javascript
@@ -214,13 +240,18 @@ The remainder of this exercise instructs you to add code to this **index.html** 
     }
     ```
 
+    ![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_13](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_13.png)
+
 1. Configure MSAL to use this function by adding the following line immediately before the **// TODO: add CODE before this line** comment:
 
     ```javascript
     msalApplication.handleRedirectCallback(authRedirectCallBack);
     ```
 
+    ![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_14](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_14.png)
+
     1. Once the user is authenticated, the code can submit a request to Microsoft Graph for the current user's information. The two **acquireToken*()** functions pass the access token acquired from Azure AD to the function:
+
 1. Add the following function immediately before the **// TODO: add FUNCTIONS before this line** comment:
 
     ```javascript
@@ -239,6 +270,8 @@ The remainder of this exercise instructs you to add code to this **index.html** 
     }
     ```
 
+    ![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_15](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_15.png)
+
 1. Finally, add the following two functions to implement a sign in and sign out capability for the button on the page. Add the following function immediately before the **// TODO: add FUNCTIONS before this line** comment:
 
     ```javascript
@@ -256,13 +289,24 @@ The remainder of this exercise instructs you to add code to this **index.html** 
     }
     ```
 
+![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_16](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_16.png)
+
 ## Task 2: Register a new application
 
 1. From the Azure portal [https://portal.azure.com](https://portal.azure.com/), navigate to **Azure Active Directory**.
 
-1. Select **Manage > App registrations** in the left-hand navigation.
+![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_18](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_18.png)
 
+1. Select **Manage > App registrations** in the left-hand navigation.
 1. On the **App registrations** page, select **New registration**.
+
+![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_19](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_19.png)
+
+![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_23](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_23.png)
+
+![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_24](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_24.png)
+
+![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_25](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_25.png)
 
 1. On the **Register an application** page, set the values as follows:
 
@@ -274,26 +318,52 @@ The remainder of this exercise instructs you to add code to this **index.html** 
 
 1. Select **Register** to create the application.
 
+    ![](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_20.png)
+
 1. On the **Hello World Identity** page, copy the values **Application (client) ID** and **Directory (tenant) ID**; you'll need these values later in this exercise.
+
+    ![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_21](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_21.png)
 
 1. On the **Hello World Identity** page, select the **1 web, 0 public** **client** link under the **Redirect URIs**.
 
+    ![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_22](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_22.png)
+
+    
+
 1. Locate the section **Implicit grant** and select both **Access tokens** and **ID tokens**.
 
+    ![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_26](C:\CFTIC-MS-600\Lab01\07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph\Evidencia\07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_26.png)
+
+    
+
 1. Select **Save** when finished setting these values.
+
+![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_27](C:\CFTIC-MS-600\Lab01\07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph\Evidencia\07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_27.png)
+
+![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_28](C:\CFTIC-MS-600\Lab01\07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph\Evidencia\07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_28.png)
 
 ## Task 3: Update the web page with the Azure AD application details
 
 The last task is to configure the web page to use the Azure AD application.
 1. Go back to the project in Visual Studio Code.
 
+    ![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_29](C:\CFTIC-MS-600\Lab01\07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph\Evidencia\07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_29.png)
+
+    
+
 1. Open the **index.html** file and locate the **var msalConfig =** **{}** code. The auth object contains three properties you need to set as follows:
 
+    ![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_29a](C:\CFTIC-MS-600\Lab01\07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph\Evidencia\07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_29a.png)
+
     - **clientId:** set to the Azure AD application's ID
-
     - **authority:** set to **https://login.microsoftonline.com/{{DIRECTORY_ID}}**, replacing the **{{DIRECTORY_ID}}** with the Azure AD directory ID of the Azure AD application.
-
     - **redirectURI:** set to the Azure AD application's redirect URI: **http://localhost:3007**
+    
+    ![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_30_](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_30_.png)
+    
+    ![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_30a](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_30a.png)
+    
+    ![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_31](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_31.png)
 
 ## Task 4: Test the web application
 
@@ -303,25 +373,50 @@ The last task is to configure the web page to use the Azure AD application.
     node server.js
     ```
 
-1. Next, open a browser and navigate to **http://localhost:3007**. The page initially contains a default welcome message and sign in button.
+    
 
-    ![MSAL.js web application sign in screen open in browser running as localhost.](../../Linked_Image_Files/l01_exercise_6_task_4_image_1.png)
+1. Next, open a browser and navigate to **http://localhost:3007**. The page initially contains a default welcome message and sign in button.
 
 1. Select the **sign in** button.
 
+    ![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_33](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_33.png)
+
 1. Depending on the browser, you are using, a popup window will load or the page will redirect to the Azure AD sign in prompt.
+
+    ![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_58](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_58.png)
 
 1. Sign in using a **Work or School Account** and accept the permissions requested for the application by selecting **Accept**.
 
-    ![Hello World Identity permissions requested dialog prompt.](../../Linked_Image_Files/l01_exercise_6_task_4_image_2.png)
+    ![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_33a](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_33a.png)
 
 1. Depending on the browser you're using, the popup will disappear, or you will be redirected back to the web page. When the page loads, MSAL will request an access token and request your information from Microsoft Graph. After the request complete, it will display the results on the page:
 
-    ![MSAL.js web application displaying information about logged in user pulling via the Microsoft Graph API.](../../Linked_Image_Files/l01_exercise_6_task_4_image_3.png)
+    ![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_33b](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_33b.png)
+
+    ![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_33c](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_33c.png)
+
+    ![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_33d](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_33d.png)
+
+    ![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_33e](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_33e.png)
+
+    ![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_33f](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_33f.png)
+
+    ![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_33g](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_33g.png)
+
+    ![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_33h](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_33h.png)
+
+    ![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_33i](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_33i.png)
+
+    ![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_33j](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_33j.png)
 
 1. Stop the web server by going back to the running project in Visual Studio Code. From the Terminal, press **CTRL+C** in the command prompt.
+
+    ![07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_76](Evidencia/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_76.png)
 
 ## Review
 
 In this exercise, you created an Azure AD application and single page application for a user to sign in and display their information on the page.
 
+
+
+[Readme.md](https://github.com/fernanipmo/CFTIC-MS600#readme)
