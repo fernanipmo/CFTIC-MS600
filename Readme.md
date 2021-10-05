@@ -17,7 +17,7 @@
 |                                                              | [04-Exercise-3-Implementing-application-that-supports-B2B.md](https://github.com/fernanipmo/CFTIC-MS600/blob/main/Lab01/04-Exercise-3-Implementing-application-that-supports-B2B/04-Exercise-3-Implementing-application-that-supports-B2B_FPM.md) | Done  | Sep/07     |
 |                                                              | [05-Exercise-4-Configuring-permissions-to-consume-an-API.md](https://github.com/fernanipmo/CFTIC-MS600/blob/main/Lab01/05-Exercise-4-Configuring-permissions-to-consume-an-API/05-Exercise-4-Configuring-permissions-to-consume-an-API_FPM.md) | Done  | Sep/07     |
 |                                                              | 06-Exercise-5-Implementing-authorization-to-consume-an-API.md |       | Sep/08     |
-|                                                              | 07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph.md |       | Sep/08     |
+|                                                              | [07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph.md](https://github.com/fernanipmo/CFTIC-MS600/blob/main/Lab01/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph/07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph_FPM.md) | Done  | Sep/08     |
 | Lab 02                                                       | (240 Min)                                                    |       |            |
 |                                                              | 01-Student-lab-manual.md                                     |       |            |
 |                                                              | 02-Exercise-1-Using-query-parameters-when-querying-Microsoft-Graph-via-HTTP.md |       |            |
